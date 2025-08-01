@@ -138,3 +138,9 @@ If you find these templates helpful, please consider:
 - [Buying me a coffee](https://www.buymeacoffee.com/andreiancu) ☕
 
 For issues and feature requests, please [create an issue](https://github.com/devportfoliotemplates/devportfoliotemplates/issues).
+
+
+// for deploying to Github Branch gh-pages, it will deploy only build
+
+npm run build
+npx gh-pages -d out --dotfiles
