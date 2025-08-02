@@ -5,7 +5,10 @@ import AboutSection from './components/AboutSection';
 import SkillsSection from './components/SkillsSection';
 import ExperienceSection from './components/ExperienceSection';
 import ProjectsSection from './components/ProjectsSection';
+import TestimonialsSection from './components/TestimonialsSection';
+import ServicesSection from './components/ServicesSection';
 import ContactSection from './components/ContactSection';
+import FooterSection from './components/FooterSection';
 
 export default function FullStackPortfolio() {
 	return (
@@ -15,7 +18,10 @@ export default function FullStackPortfolio() {
 			<SkillsSection />
 			<ExperienceSection />
 			<ProjectsSection />
+			<TestimonialsSection />
+			<ServicesSection />
 			<ContactSection />
+			<FooterSection />
 		</main>
 	);
 }
