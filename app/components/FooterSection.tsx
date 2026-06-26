@@ -11,8 +11,7 @@ export default function FooterSection() {
 					<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
 						<h3 className="text-xl font-bold mb-4">Kaleem Qasim</h3>
 						<p className="text-gray-400 text-sm leading-relaxed">
-							Full Stack PHP Developer with 7+ years of experience building scalable web applications. 
-							Passionate about clean code, modern technologies, and delivering exceptional user experiences.
+							Technical Lead &amp; PHP/AI Engineer with 7+ years building scalable web applications and production-grade AI systems. Passionate about clean code, AI orchestration, and exceptional software.
 						</p>
 					</motion.div>
 
@@ -32,7 +31,7 @@ export default function FooterSection() {
 					<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}>
 						<h3 className="text-xl font-bold mb-4">Contact</h3>
 						<div className="space-y-2 text-sm text-gray-400">
-							<p>Email: kaleemsofttest@gmail.com</p>
+							<p>Email: kaleemullahlqp@gmail.com</p>
 							<p>Phone: +92 301 772 0400</p>
 							<p>Location: Lahore, Pakistan</p>
 						</div>
@@ -43,7 +42,7 @@ export default function FooterSection() {
 				<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.3 }} className="mt-8 pt-8 border-t border-gray-800">
 					<div className="flex flex-col md:flex-row justify-between items-center">
 						<div className="text-gray-400 text-sm">
-							© 2025 Kaleem Qasim. All rights reserved.
+							© 2026 Kaleem Qasim. All rights reserved.
 						</div>
 						<div className="flex gap-4 mt-4 md:mt-0">
 							<a
